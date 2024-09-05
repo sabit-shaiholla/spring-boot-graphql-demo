@@ -1,0 +1,11 @@
+query getListOfBooks {
+    books {
+        id
+        name
+        pageCount
+        author {
+            id
+            name
+        }
+    }
+}
